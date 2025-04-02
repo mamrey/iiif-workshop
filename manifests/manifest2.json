@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mamrey.github.io/iiif-workshop/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Danish maps of St. Croix",
+  "metadata" : [ {
+    "@label" : "Creator",
+    "@value" : "Many and More",
+    "@language" : "en"
+  } ],
+  "description" : [ {
+    "@value" : "Danish colonial maps of St. Croix",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/5.0/",
+  "attribution" : "Royal Danish Library Digital Collections",
+  "sequences" : [ {
+    "@id" : "http://9d7af968-1e57-48d3-8a75-4e089a6a08ef",
+    "@type" : "sc:Sequence",
+    "@viewingHint" : "individuals",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://564ad4bc-40e3-467a-81d1-ceae414a4b65",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 6301,
+      "width" : 8347,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a6325c45-1e9b-454c-89f2-58fdd9b3c5ca",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/map2_20250402%2fmap2.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/map2_20250402%2fmap2.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 52594447,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 6301,
+          "width" : 8347
+        },
+        "on" : "http://564ad4bc-40e3-467a-81d1-ceae414a4b65"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://03bdb6d5-70fb-4581-8d3c-d8f56e25449c",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3843,
+      "width" : 5922,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9ec006f4-d70b-4e8d-86cd-200d1b8e519f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/map3_20250402%2fmap3.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/map3_20250402%2fmap3.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 22758246,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3843,
+          "width" : 5922
+        },
+        "on" : "http://03bdb6d5-70fb-4581-8d3c-d8f56e25449c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://564ad4bc-40e3-467a-81d1-ceae414a4b65", "http://03bdb6d5-70fb-4581-8d3c-d8f56e25449c" ]
+  } ]
+}
