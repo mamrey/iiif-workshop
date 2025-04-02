@@ -1,0 +1,13 @@
+{
+  "id" : "https://mamrey.github.io/iiif-workshop/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in mamrey/iiif-workshop project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mamrey.github.io/iiif-workshop/manifests/manifest2.json",
+    "label" : "Danish maps of St. Croix"
+  } ]
+}
