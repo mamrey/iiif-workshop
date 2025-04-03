@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://mamrey.github.io/iiif-workshop/annotations/annotations.json", "https://mamrey.github.io/iiif-workshop/annotations/annotations" ],
+  "otherContent" : [ "https://mamrey.github.io/iiif-workshop/annotations/annotations" ],
   "@id" : "https://mamrey.github.io/iiif-workshop/annotations/collection.json",
   "label" : "All annotations loaded in mamrey/iiif-workshop project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
