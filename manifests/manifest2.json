@@ -52,7 +52,11 @@
         },
         "on" : "http://564ad4bc-40e3-467a-81d1-ceae414a4b65"
       } ],
-      "related" : ""
+      "otherContent" : [ {
+        "@id" : "http://564ad4bc-40e3-467a-81d1-ceae414a4b65",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
     }, {
       "@id" : "http://03bdb6d5-70fb-4581-8d3c-d8f56e25449c",
       "@type" : "sc:Canvas",
