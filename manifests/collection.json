@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mamrey.github.io/iiif-workshop/manifests/manifest2.json",
     "label" : "Danish maps of St. Croix"
+  }, {
+    "id" : "https://mamrey.github.io/iiif-workshop/manifests/presentation-manifest.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
