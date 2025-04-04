@@ -1,0 +1,226 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://mamrey.github.io/iiif-workshop/manifests/presentation-manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd",
+    "type" : "Canvas",
+    "height" : 888,
+    "width" : 668,
+    "label" : {
+      "en" : [ "experiments with hiiistory" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "" ]
+      }
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "attribution" ]
+      },
+      "value" : {
+        "en" : [ "Royal Danish Library Digital Collections" ]
+      }
+    },
+    "rights" : "http://creativecommons.org/licenses/by/4.0/",
+    "items" : [ {
+      "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/22pp8cv7pjg-m92pd7lt",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=0,0,480,227",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/la-grange/2180,841,2093,991/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 379,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/ulnqzuit7-m92q80ic",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=0,200,73,227",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/umbrella_202504/1346,3041,158,489/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2476,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/z1rg73nnc4-m92qios0",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=74,200,225,300",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/standing_202504/2507,991,325,441/400,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 543,
+          "width" : 400
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/yxwk6hwa23t-m92qk588",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=480,400,187,300",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/mill-obeah/752,328,782,1254/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1283,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/xw0v5mnl7x9-m92qs97c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=140,450,170,300",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/christ_202504/1662,886,515,930/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1445,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/bszcj97aoch-m92qzfzo",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=0,700,300,187",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/woman-monkey-deer/745,1783,1349,887/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 526,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/dut2u0bcwme-m92rasrk",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=300,140,144,600",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/wanted_202504%2fwanted.jpg/534,1899,5356,1291/800,/90/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 800,
+          "width" : 193
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/qkbvzn9mi6n-m92rdx4r",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=0,400,152,300",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/la-grange/365,1299,870,1716/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1578,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/vgjbbdia15g-m92rl5dd",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=440,0,200,165",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/love-for-stx/836,740,646,532/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 659,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/kpg9kjj138c-m92s2aaz",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=440,165,200,109",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/love-for-stx/797,1921,755,412/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 437,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/zq7d3icwsu-m92u9pwf",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=440,275,88,528",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/women-laborers/1009,1328,102,610/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4784,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/i66eekflsi-m92uegww",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=520,620,148,264",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/mill-obeah/849,2735,622,980/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1260,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/gbcwh2f93xc-m92v8l39",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=296,740,223,148",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/map2_20250402/1346,2494,355,261/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 588,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/u5kfy1z9bt-m92vitoc",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=518,260,150,165",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/judith-fancy/3886,1582,639,698/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 874,
+          "width" : 800
+        }
+      }, {
+        "id" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd/annotation-page/thtnp0alx4-m92pcihd/annotation/y0gd5bntr6m-m92vw40m",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/rajeoecczb-m92pc26p/canvas/kqa2lnlvvz-m92pcihd#xywh=642,0,25,266",
+        "body" : {
+          "id" : "https://iiif.archive.org/iiif/ti-kai/490,2030,78,980/800,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10051,
+          "width" : 800
+        }
+      } ]
+    } ]
+  } ]
+}
